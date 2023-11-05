@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane fx:id="tableview" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.controller.ApplicationControllerFxml">
+   <children>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="162.0" layoutY="183.0" textFill="#199bc3">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Label>
+      <Circle fx:id="circle" fill="DODGERBLUE" layoutX="150.0" layoutY="107.0" radius="52.0" stroke="BLACK" strokeType="INSIDE" />
+   </children>
+</AnchorPane>
