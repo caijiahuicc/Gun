@@ -6,8 +6,8 @@
 
 <AnchorPane fx:id="parentView" prefHeight="687.0" prefWidth="967.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.Login.LoginApplicationFxmlController">
    <children>
-      <Button fx:id="login" layoutX="420.0" layoutY="452.0" mnemonicParsing="false" prefHeight="47.0" prefWidth="215.0" text="登录" />
-      <CheckBox fx:id="remember" layoutX="159.0" layoutY="558.0" mnemonicParsing="false" text="记住密码" />
+      <Button fx:id="login" layoutX="420.0" layoutY="452.0" mnemonicParsing="false" prefHeight="47.0" prefWidth="215.0" onAction="#loginSucess" text="登录" />
+      <CheckBox fx:id="remember" layoutX="159.0" layoutY="558.0" mnemonicParsing="false" onAction="#remberPwd" text="记住密码" />
       <Label layoutX="258.0" layoutY="245.0" prefHeight="36.0" prefWidth="99.0" text="用       户    名" />
       <Label layoutX="258.0" layoutY="344.0" prefHeight="28.0" prefWidth="99.0" text="密              码" />
       <TextField fx:id="userName" layoutX="389.0" layoutY="248.0" prefHeight="36.0" prefWidth="276.0" />
